@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="main.css">
+  <title>Y tế điện Tử</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <nav>
+      <div class="nav__bar">
+        <div class="logo">
+          <a href="#"><img src="assets/logo.jpg" alt="logo" /></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Trang chủ</a></li>
+        <li><a href="#about">Về Chúng Tôi</a></li>
+        <li><a href="#service">Dịch vụ</a></li>
+        <li><a href="#explore">Khám phá</a></li>
+        <li><a href="#contact">Liên hệ</a></li>
+      </ul>
+
+      <button class="btn nav__btn"><a href="login/login.html">Đăng Nhập/ Đăng Ký </a></button>
+    </nav>
+
+    <div class="center-wrapper">
+      <div class="search-container">
+        <div class="search-bar">
+          <h2></h2>
+          <input type="text" placeholder="Tra Cứu...">
+
+          <button type="submit">
+            <a href="JarvisAI/index.html">
+              <i class="fa-solid fa-location-arrow"></i>
+            </a>
+          </button>
+          <p> <a href="JarvisAI/index.html"><i class="fa-solid fa-hand-holding-medical"></i>Hỏi Đáp với AI</a></p>
+        </div>
+
+        <div class="section__container header__container" id="home">
+          <p>Tâm Huyết - Nhiệt Tình - Chuyên Nghiệp</p>
+          <h1>Y Tế Sinh Hoc<br />Chăm Sóc <span>Thông Tin</span>.</h1>
+        </div>
+      </div>
+  </header>
+
+  <section class="section__container booking__container">
+    <form action="/" class="booking__form">
+      <div class="input__group">
+        <span><i class="ri-calendar-2-fill"></i></span>
+        <div>
+          <label for="check-in">Đăng Lý Khám</label>
+          <input type="text" placeholder="Xem Tại Đây" />
+        </div>
+      </div>
+      <div class="input__group">
+        <span><i class="ri-calendar-2-fill"></i></span>
+        <div>
+          <label for="check-out">Xem Kết Quả</label>
+          <input type="text" placeholder="Xem Tại Đây" />
+        </div>
+      </div>
+      <div class="input__group">
+        <span><i class="ri-user-fill"></i></span>
+        <div>
+          <label for="guest">Bệnh Nhân Ưu Tiên</label>
+          <input type="text" placeholder="Guest" />
+        </div>
+      </div>
+      <div class="input__group input__btn">
+        <button class="btn">Thủ Tục Đăng Ký</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="section__container about__container" id="about">
+    <div class="about__image">
+      <img src="assets/about.jpg" alt="about" />
+    </div>
+    <div class="about__content">
+      <p class="section__subheader">GIỚI THIỆU</p>
+      <h2 class="section__header">Chăm Sóc Sức Khỏe Toàn Diện Cho Gia Đình Bạn</h2>
+      <p class="section__description">
+        Những trang web này giúp người dùng có thể dễ dàng truy cập kiến thức sức khỏe,
+        theo dõi tình trạng sức khỏe, và đặt lịch khám với bác sĩ hoặc cơ sở y tế một cách thuận tiện. Đồng thời, chúng
+        cũng hỗ trợ người dân nâng cao nhận thức về sức khỏe và bệnh tật.
+      </p>
+      <div class="about__btn">
+        <button class="btn">Đọc Thêm</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container room__container">
+    <p class="section__subheader">Về Chúng Tôi</p>
+    <h2 class="section__header">Các Chuyên Khoa Nổi Bật </h2>
+    <div class="room__grid">
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="assets/room-1.jpg" alt="room" />
+          <div class="room__card__icons">
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-paint-fill"></i></span>
+            <span><i class="ri-shield-star-line"></i></span>
+          </div>
+        </div>
+        <div class="room__card__details">
+          <h4>Chuyên Khoa Tim Mạch</h4>
+          <p>
+            Kiểm tra và tư vấn điều trị các bệnh lý về tim mạch
+          </p>
+          <h5>Thời gian Khám Trong Ngày <span>11:30 - 16:00</span></h5>
+          <button class="btn">Đặt Lịch</button>
+        </div>
+      </div>
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="assets/room-2.jpg" alt="room" />
+          <div class="room__card__icons">
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-paint-fill"></i></span>
+            <span><i class="ri-shield-star-line"></i></span>
+          </div>
+        </div>
+        <div class="room__card__details">
+          <h4>Chuyên Khoa Thần Kinh </h4>
+          <p>
+            Chuyên khoa thần kinh nghiên cứu và điều trị các bệnh liên quan đến hệ thần kinh, như: đột quỵ, bệnh
+            Alzheimer, bệnh Parkinson, đau đầu
+          </p>
+          <h5>Thời gian Khám Trong Ngày <span>10:00 - 16:30</span></h5>
+          <button class="btn">Đặt Lịch</button>
+        </div>
+      </div>
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="assets/room-3.jpg" alt="room" />
+          <div class="room__card__icons">
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-paint-fill"></i></span>
+            <span><i class="ri-shield-star-line"></i></span>
+          </div>
+        </div>
+        <div class="room__card__details">
+          <h4>Cơ Xương Khớp</h4>
+          <p>
+            Chuyên khoa cơ xương khớp (orthopedics) chuyên về chẩn đoán, điều trị và phòng ngừa các bệnh về xương, khớp,
+            cơ bắp và dây chằng. Các vấn đề thường gặp bao gồm viêm khớp, chấn thương thể thao, thoái hóa khớp và gãy
+            xương. Bác sĩ cơ xương khớp có thể sử dụng thuốc, vật lý trị liệu hoặc phẫu thuật để điều trị
+          </p>
+          <h5>Thời gian Khám Trong Ngày <span>7:30 - 14:00</span></h5>
+          <button class="btn">Đặt Lịch</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="service" id="service">
+    <div class="section__container service__container">
+      <div class="service__content">
+        <p class="section__subheader">DỊCH VỤ</p>
+        <h2 class="section__header">Chỉ phấn đấu để đạt được điều tốt nhất.</h2>
+        <ul class="service__list">
+          <li>
+            <span><i class="ri-shield-star-line"></i></span>
+            An ninh cao cấp
+          </li>
+          <li>
+            <span><i class="ri-24-hours-line"></i></span>
+            Cấp Cứu 24/24
+          </li>
+          <li>
+            <span><i class="ri-headphone-line"></i></span>
+            Hội Chuẩn
+          </li>
+          <li>
+            <span><i class="ri-map-2-line"></i></span>
+            Phương Pháp chữa trị
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container banner__container">
+    <div class="banner__content">
+      <div class="banner__card">
+        <h4>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </h4>
+        <p>Dịch Vụ Chăm Sóc Khách Hàng </p>
+      </div>
+      <div class="banner__card">
+        <h4>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </h4>
+        <p>Mức Độ Hài Lòng</p>
+      </div>
+      <div class="banner__card">
+        <h4><i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </h4>
+        <p>Y Bác Sĩ Tận Tâm </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="explore" id="explore">
+    <p class="section__subheader">KHÁM PHÁ</p>
+    <h2 class="section__header">Hôm nay có gì mới.</h2>
+    <div class="explore__bg">
+      <div class="explore__content">
+        <p class="section__description">December 20, 2024</p>
+        <h4>  Thiết Bị Y Tế Mới</h4>
+        <button class="btn"> <a href="https://speedmaint.com/phan-loai-5-thiet-bi-y-te/"> Tiếp tục</a></button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="logo">
+          <a href="#home"><img src="assets/logo.jpg" alt="logo" /></a>
+        </div>
+        <p class="section__description">
+          Bệnh viện Việt Đức (Hà Nội): Nổi tiếng về phẫu thuật và điều trị chuyên sâu.
+          Bệnh viện Chợ Rẫy (TP. Hồ Chí Minh): Bệnh viện đa khoa lớn nhất phía Nam, chuyên điều trị nhiều lĩnh vực.
+          Bệnh viện Trung ương Huế: Cung cấp dịch vụ y tế chất lượng cao và đào tạo bác sĩ.
+          Bệnh viện FV (TP. Hồ Chí Minh): Bệnh viện quốc tế với dịch vụ chăm sóc sức khỏe đạt chuẩn quốc tế.
+        </p>
+        <button class="btn">Đặt Lịch</button>
+      </div>
+      <div class="footer__col">
+        <h4>LIÊN KẾT NHANH</h4>
+        <ul class="footer__links">
+          <li><a href="#">Duyệt qua các điểm đến</a></li>
+          <li><a href="#">Ưu đãi Bảo Hiểm Y Tế</a></li>
+          <li><a href="#">Khám Sức Khỏe Định Kỳ</a></li>
+          <li><a href="#">Xét Nghiệm Y Tế</a></li>
+          <li><a href="#">Chuẩn Đoán Hình Ảnh</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>DỊCH VỤ CỦA CHÚNG TÔI</h4>
+        <ul class="footer__links">
+          <li><a href="#">Hỗ trợ hướng dẫn </a></li>
+          <li><a href="#">Bệnh Viện Gần Nhất</a></li>
+          <li><a href="#">Đưa đón sân bay</a></li>
+          <li><a href="#">Sức khỏe</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>LIÊN HỆ VỚI CHÚNG TÔI</h4>
+        <ul class="footer__links">
+          <li><a href="#">Phucgp74@gmail.com</a></li>
+        </ul>
+        <div class="footer__socials">
+          <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
+          <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
+          <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
+          <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Bản Quyền Sáng Tạo Nhóm Của Hoang ❤️ &copy
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
